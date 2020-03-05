@@ -84,6 +84,6 @@ def weather():
 #         return " You r susing GET method"
 
 if __name__ == "__main__":
-    app.run()
+    # app.run()
    
-    # app.run(port=app.config["PORT"],debug=app.config["DEBUG"])
+    app.run(port=app.config["PORT"],debug=app.config["DEBUG"])
