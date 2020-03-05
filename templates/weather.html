@@ -1,0 +1,12 @@
+<!doctype html>
+<title>C_W_Forcasting</title>
+
+<link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
+<div class=page>
+  <h1> Cairo_Weather Forcast at :
+       {{vars}} </h1>
+  {% for table in tables %}
+    <h2>{{title[loop.index]}}</h2>
+    {{ table|safe }}
+  {% endfor %}
+</div>
