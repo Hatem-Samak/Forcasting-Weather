@@ -37,7 +37,7 @@ Flask = "==1.1.1"
 ipython_genutils = "==0.2.0"
 Jinja2 = "==2.11.1"
 MarkupSafe = "==1.1.1"
-Pygments = "==2.5.2"
+Pygments = "==2.7.4"
 Werkzeug = "==1.0.0"
 
 [requires]
