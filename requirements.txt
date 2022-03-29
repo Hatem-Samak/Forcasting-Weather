@@ -65,7 +65,7 @@ oauthlib==2.1.0
 olefile==0.46
 pandas==1.0.1
 pandocfilters==1.4.2
-paramiko==2.6.0
+paramiko==2.10.1
 parso==0.6.0
 pexpect==4.6.0
 pickleshare==0.7.5
